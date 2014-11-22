@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sensoro.qqsearch.MainActivity" >
+
+    <include
+        android:id="@+id/title_bar_layout"
+        layout="@layout/title_header" />
+
+    <include
+        android:id="@+id/common_search"
+        layout="@layout/activity2_3_search"/>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

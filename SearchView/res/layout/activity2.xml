@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sensoro.qqsearch.MainActivity" >
+    
+    <include
+        android:id="@+id/title_bar_layout"
+        layout="@layout/title_header"/>
+    
+    <ListView 
+        android:id="@+id/lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar_layout">
+        
+    </ListView>
+
+</RelativeLayout>
